@@ -29,3 +29,7 @@ margin: 20px 0px
     color: white;
     box-shadow: 0, 0, 10 none
 }
+h1{
+    /* font-variant: ; */
+    color: #2A9D8F;
+}
