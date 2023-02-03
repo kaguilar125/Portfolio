@@ -65,5 +65,63 @@ margin: 20px 0px
     text-align: center;
     margin: 40px 0px;
 }
+#about{
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#about::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("") no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index:-1;
+    opacity: 8;
+}
 
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#portfolio::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("") no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index:-1;
+    opacity: 8;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#contact::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("") no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index:-1;
+    opacity: 8;
+}
 
